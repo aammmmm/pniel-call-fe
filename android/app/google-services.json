@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "424805787271",
+    "project_id": "pniel-call",
+    "storage_bucket": "pniel-call.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424805787271:android:b03fa675a1bb834748ba22",
+        "android_client_info": {
+          "package_name": "com.example.pniel_call"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5aWbghq8xK8UUtFav-CyUi4Q9GgRhuGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

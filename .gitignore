@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml~
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android
+android/local.properties
+android/.gradle
+android/build/
+android/app/build/
+android/app/.cxx/
+android/app/src/main/assets/flutter_assets/
+android/app/google-services.json # <<< PENTING UNTUK FIREBASE ANDROID
+
+# iOS
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/*.xcworkspace/
+ios/Runner/*.xcodeproj/project.xcworkspace/
+ios/Runner/*.xcodeproj/xcuserdata/
+ios/Runner/GoogleService-Info.plist # <<< PENTING UNTUK FIREBASE IOS
+
+# Web
+web/flutter_bootstrap.js
+web/index.html.old
+web/version.json
+web/assets/
+web/canvaskit/ # atau folder lain yang berisi aset web yang di-generate
+
+# Firebase
+lib/firebase_options.dart 
